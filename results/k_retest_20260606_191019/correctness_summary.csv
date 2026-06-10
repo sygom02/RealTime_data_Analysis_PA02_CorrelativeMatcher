@@ -1,0 +1,9 @@
+variant,benchmark,points,candidates,max_abs_error,mean_abs_error,top1_same,topK_overlap,final_pose_diff,reference_top1,actual_top1
+gpu_shared,correctness,1200.0,4096.0,0.0,0.0,1.0,1.0,0.0,2461.0,2461.0
+gpu_shared_cached_grid,correctness,1200.0,4096.0,0.0,0.0,1.0,1.0,0.0,2461.0,2461.0
+gpu_shared_batched,correctness,1200.0,4096.0,3e-08,0.0,1.0,1.0,0.0,718.0,718.0
+gpu_reuse_buffer,correctness,1200.0,4096.0,0.0,0.0,1.0,1.0,0.0,2461.0,2461.0
+gpu_reuse_buffer_cached_grid,correctness,1200.0,4096.0,0.0,0.0,1.0,1.0,0.0,2461.0,2461.0
+gpu_reuse_buffer_cached_grid_batched,correctness,1200.0,4096.0,3e-08,0.0,1.0,1.0,0.0,718.0,718.0
+gpu_reuse_warp_cached_grid_batched,correctness,1200.0,4096.0,3e-08,0.0,1.0,1.0,0.0,718.0,718.0
+gpu_reuse_block_cached_grid,correctness,1200.0,4096.0,0.0,0.0,1.0,1.0,0.0,2461.0,2461.0

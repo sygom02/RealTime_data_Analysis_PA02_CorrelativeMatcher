@@ -1,0 +1,39 @@
+# Build outputs
+build*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.pdb
+
+# Local caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Large local CUDA toolkit copy. Jetson uses its installed CUDA runtime.
+tools/
+
+# Temporary archives and crash dumps
+*.tar
+*.tar.gz
+*.zip
+core
+core.*
+
+# Local connection notes / credentials
+remote connection
+
+# Report/export artifacts
+*.pdf
+*.docx
+*.html
+
+# Profiler binary databases/reports. Keep exported CSV/TXT/MD summaries instead.
+*.nsys-rep
+*.ncu-rep
+*.sqlite
