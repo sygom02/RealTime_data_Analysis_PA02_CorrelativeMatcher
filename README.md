@@ -47,7 +47,9 @@ cmake --build build_jetson_bag -j$(nproc) \
            benchmark_bag_matcher_gpu_reuse_buffer_cached_grid \
            benchmark_bag_matcher_gpu_reuse_buffer_cached_grid_batched \
            benchmark_bag_matcher_gpu_reuse_warp_cached_grid_batched \
-           benchmark_bag_matcher_gpu_reuse_block_cached_grid
+           benchmark_bag_matcher_gpu_reuse_block_cached_grid \
+           benchmark_bag_matcher_gpu_reuse_buffer_cached_grid_batched \
+           benchmark_bag_matcher_gpu_reuse_warp_cached_grid_batched
 ```
 
 빌드가 끝나면 실행 파일이 생성되었는지 확인한다.
