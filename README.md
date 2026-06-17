@@ -74,6 +74,8 @@ bash run_bag_full_variant.sh gpu_reuse_buffer_cached_grid
 bash run_bag_full_variant.sh gpu_reuse_buffer_cached_grid_batched
 bash run_bag_full_variant.sh gpu_reuse_warp_cached_grid_batched
 bash run_bag_full_variant.sh gpu_reuse_block_cached_grid
+bash run_bag_thread_sweep.sh gpu_reuse_buffer_cached_grid_batched
+bash run_bag_thread_sweep.sh gpu_reuse_warp_cached_grid_batched
 ```
 
 기본 입력 경로는 스크립트 안에서 아래 값으로 설정되어 있다.
